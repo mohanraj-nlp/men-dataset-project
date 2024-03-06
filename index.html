@@ -9,7 +9,7 @@
   <meta property="og:description" content="Discover our [M]alaysian [E]nglish [N]ews Article Dataset (MEN-Dataset), annotated with Named Entities and Relations, for advanced research and analysis."/>
   <meta property="og:url" content="https://mohanraj-nlp.github.io/men-dataset-project/"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <!-- <meta property="og:image" content="static/image/your_banner_image.png" /> -->
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
 
@@ -98,7 +98,7 @@
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/mohanraj-nlp/MEN-Dataset/tree/main" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -143,6 +143,21 @@
   </section> -->
 <!--End paper poster -->
 
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Standard English and Malaysian English exhibit notable differences, posing challenges for natural language processing (NLP) tasks on Malaysian English. Unfortunately, most of the existing datasets are mainly based on standard English and therefore inadequate for improving NLP tasks in Malaysian English. An experiment using state-of-the-art Named Entity Recognition (NER) solutions on Malaysian English news articles highlights that they cannot handle morphosyntactic variations in Malaysian English. To the best of our knowledge, there is no annotated dataset available to improvise the model. To address these issues, we constructed a Malaysian English News (MEN) dataset, which contains 200 news articles that are manually annotated with entities and relations. We then fine-tuned the spaCy NER tool and validated that having a dataset tailor-made for Malaysian English could improve the performance of NER in Malaysian English significantly. This paper presents our effort in the data acquisition, annotation methodology, and thorough analysis of the annotated dataset. To validate the quality of the annotation, inter-annotator agreement was used, followed by adjudication of disagreements by a subject matter expert. Upon completion of these tasks, we managed to develop a dataset with 6,061 entities and 3,268 relation instances. Finally, we discuss on spaCy fine-tuning setup and analysis on the NER performance. This unique dataset will contribute significantly to the advancement of NLP research in Malaysian English, allowing researchers to accelerate their progress, particularly in NER and RE</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
